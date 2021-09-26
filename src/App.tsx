@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/escolaPaulistaMedicina.png";
+import logo from "./assets/icon.png";
 import "./App.scss";
 
 function App() {

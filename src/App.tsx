@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./assets/escolaPaulistaMedicina.png";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content">
+        <img src={logo} alt="Escola Paulista de Medicina" />
+
+        <h1>Suporte, Dúvidas, Sugestões ou Criticas? Entre em contato!</h1>
+
+        <span>E-mail: cardioscaapp@gmail.com</span>
+
+        <div className="nameContainer">
+          <span>Mauro Guimarães</span>
+        </div>
+      </div>
     </div>
   );
 }
